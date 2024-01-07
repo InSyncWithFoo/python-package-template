@@ -1,0 +1,23 @@
+version: 2
+
+formats:
+  - pdf
+  - epub
+
+python:
+  install:
+    -
+      method: pip
+      path: .
+      extra_requirements:
+        - docs  # [project.optional-dependencies.docs] must be present
+
+build:
+  os: ubuntu-22.04  # Always latest
+  tools:
+    python: "3.12"  # Always latest
+
+sphinx:
+  builder: html
+  configuration: docs/source/conf.py
+  fail_on_warning: true
