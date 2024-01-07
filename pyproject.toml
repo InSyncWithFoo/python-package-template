@@ -141,7 +141,7 @@ docs = [  # Remove if docs are not needed
 # maintainers, and where to support the project financially. The key is
 # what's used to render the link text on PyPI.
 [project.urls]  # Optional
-"Homepage" = "https://github.com/pypa/sampleproject"  # Use kebab-case
+"Homepage" = "https://github.com/InSyncWithFoo/python-package-template"  # Use kebab-case
 # "Documentation" = "https://some-subdomain.readthedocs.io/"
 
 # The following would provide a command line executable called `sample`
