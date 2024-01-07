@@ -3,11 +3,15 @@
 I believe code must be beautiful.
 By "beautiful", I mean "beautiful to me".
 
-Format the files manually if necessary.
+In addition to the rules listed below,
+there are a few things to remember:
 
-The code examples in this file have
-their indentation set to 2 spaces as
-a compromise between [Python](#for-python)
+* Format the files manually if necessary.
+* Some rules are not documented here.
+* Follow existing code when in doubt.
+
+Python code examples in this file have their indentation
+set to 2 spaces as a compromise between [Python](#for-python)
 and [Markdown](#for-markdown)'s rules.
 
 
@@ -55,10 +59,6 @@ should not be used.
       subprocess.run('rm -rf /', shell = True)
     ```
 
-* Others:
-  * Most rules are not documented here.
-    Follow existing code.
-
 
 ### Semantic styles
 
@@ -68,9 +68,8 @@ should not be used.
     * `PascalCase`: classes
     * `ALL_CAPS`: enum members and constants
   
-  * Do not name things `utils`, `base`, or
-    `abstract`. Try to give more meaningful
-    names when possible; [it is always possible][4].
+  * Do not name things `utils`, `helper`, `base` or `abstract`.
+    Give more meaningful names when possible; [it is always possible][4].
     
     See also: *[Naming Things in Code][5]*
 
