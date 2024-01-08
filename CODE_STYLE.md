@@ -40,6 +40,10 @@ should not be used.
   * Wrapping long lines is recommended,
     even if the length does not exceed 80.
 
+* Quotes:
+  * Prefer single quotes wherever possible,
+    even when writing docstrings.
+
 * Operators:
   * Use spaces around keyword arguments and operators.
 
@@ -157,6 +161,15 @@ See the source code of this page for an example.
 
 * Casing:
   * Use `snake_case`.
+
+
+### For TOML
+
+* Indentation:
+  * Use 2 spaces.
+
+* Quotes:
+  * Use double quotes.
 
 
 ### For all files
