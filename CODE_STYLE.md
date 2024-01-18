@@ -10,6 +10,7 @@ there are a few things to remember:
 * Some rules are not documented here.
 * Follow existing code when in doubt.
 
+These rules are not concrete. For instance,
 Python code examples in this file have their indentation
 set to 2 spaces as a compromise between [Python](#for-python)
 and [Markdown](#for-markdown)'s rules.
@@ -108,6 +109,12 @@ should not be used.
     clear by simply refactoring the code.
     
     See also: *[Don't Write Comments][6]*
+  
+  * `# noqa`, `# type: ignore` and similar are
+    exempt from the second rule.
+    Use `# noqa` for warnings issued by PyCharm
+    (as well as other IDEs), and `# type: ignore`
+    for those issued by type checkers.
 
 
 ### For Markdown
