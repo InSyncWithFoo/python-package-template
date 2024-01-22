@@ -6,6 +6,8 @@ For more information, see [the documentation][1].
 
 ## Installation
 
+This package is available [on PyPI][2]:
+
 ```shell
 $ pip install template
 ```
@@ -17,3 +19,4 @@ Please see _[Contributing][6]_ for more information.
 
 
   [1]: https://a-link-to-the-library-s-documentation.readthedocs.io/
+  [2]: https://pypi.org/project/template
