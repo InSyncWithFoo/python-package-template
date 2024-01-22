@@ -10,13 +10,16 @@ for more information on the project itself.
 
 ## Run tests
 
-Whenever you make a <em>fix</em>, run the tests with `pytest`:
+Whenever you make a <em>fix</em>,
+remember to run the tests with `pytest`.
+If everything passes, you are good to go.
 
 ```shell
 $ pytest
 ```
 
-If everything passes, you are good to go.
+Otherwise, modify the tests as you go,
+and make sure that those pass as well.
 
 
   [1]: ./CODE_STYLE.md
