@@ -164,7 +164,9 @@ package-data = { "sample" = ["*.dat"] }
 requires = ["setuptools>=69.0.0", "wheel"]  # Same as [project.optional-dependencies]
 build-backend = "setuptools.build_meta"
 
-# Tools that support pyproject.toml must be configured using pyproject.toml.
+# Tools that support pyproject.toml must be configured using pyproject.toml,
+# unless that tool has an astonishingly bad interface for specifying
+# configurations using this file (looking at you, pytest and tox!).
 
 [tool.mypy]
 # https://mypy.readthedocs.io/en/stable/config_file.html
