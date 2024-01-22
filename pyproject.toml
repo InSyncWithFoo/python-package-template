@@ -161,7 +161,7 @@ package-data = { "sample" = ["*.dat"] }
 [build-system]
 # These are the assumed default build requirements from pip:
 # https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
-requires = ["setuptools>=68.0.0", "wheel"]  # Same as [project.optional-dependencies]
+requires = ["setuptools>=69.0.0", "wheel"]  # Same as [project.optional-dependencies]
 build-backend = "setuptools.build_meta"
 
 # Tools that support pyproject.toml must be configured using pyproject.toml.
