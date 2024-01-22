@@ -15,8 +15,9 @@ $ pip install template
 
 ## Contributing
 
-Please see _[Contributing][6]_ for more information.
+Please see _[Contributing][3]_ for more information.
 
 
   [1]: https://a-link-to-the-library-s-documentation.readthedocs.io/
   [2]: https://pypi.org/project/template
+  [3]: ./CONTRIBUTING.md
