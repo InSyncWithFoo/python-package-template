@@ -6,7 +6,7 @@
   * [ ] Edit [test.yaml][4] accordingly.
 * [ ] Edit [README.md][5].
 * [ ] Edit [PROJECT_STRUCTURE.md][6].
-* [ ] Choose one [release.yaml][7] and fine-tune it.
+* [ ] Choose one [release.yaml][7].
 * [ ] Fine-tune [dependabot.yaml][8].
 * [ ] When making the first commit, use InSyncWithFoo as name.
 * [ ] Delete this file.
