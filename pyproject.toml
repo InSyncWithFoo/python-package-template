@@ -168,6 +168,12 @@ build-backend = "setuptools.build_meta"
 # unless that tool has an astonishingly bad interface for specifying
 # configurations using this file (looking at you, pytest and tox!).
 
+[tool.pytest.ini_options]
+# https://docs.pytest.org/en/stable/reference/customize.html
+# --cov interferes with PyCharm's debugger. Remove as necessary.
+addopts = "--strict-markers --cov=template --cov-report-html"
+testpaths = ["tests"]
+
 [tool.mypy]
 # https://mypy.readthedocs.io/en/stable/config_file.html
 mypy_path = ["src"]
