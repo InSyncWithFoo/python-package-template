@@ -112,8 +112,8 @@ should not be used.
     
     See also: *[Don't Write Comments][6]*
   
-  * `# noqa`, `# type: ignore` and similar are
-    exempt from the second rule.
+  * `# noqa`, `# type: ignore` and the like
+    are exempt from the second rule.
     Use `# noqa` for warnings issued by PyCharm
     (as well as other IDEs), and `# type: ignore`
     for those issued by type checkers.
