@@ -1,3 +1,3 @@
 # Project structure
 
-This is currently empty.
+This file is currently empty.
