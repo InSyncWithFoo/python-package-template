@@ -119,6 +119,17 @@ should not be used.
     for those issued by type checkers.
 
 
+### For test files
+
+* The rules for test files are less strict
+  than that of package files. The changes
+  include, but not limited to:
+  
+  * The 80 line width rule might be ignored.
+  * Global variables are of no concern.
+  * "Helper" code may be nested a bit deeper.
+
+
 ## For Markdown
 
 See the source code of this page for an example.
