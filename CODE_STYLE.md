@@ -119,7 +119,7 @@ should not be used.
     for those issued by type checkers.
 
 
-### For Markdown
+## For Markdown
 
 See the source code of this page for an example.
 
@@ -162,7 +162,7 @@ See the source code of this page for an example.
     if they have sub-blocks.
 
 
-### For JSON
+## For JSON
 
 * Indentation:
   * Use tabs.
@@ -172,7 +172,7 @@ See the source code of this page for an example.
   * Use `snake_case`.
 
 
-### For TOML
+## For TOML
 
 * Indentation:
   * Use 2 spaces.
@@ -181,13 +181,13 @@ See the source code of this page for an example.
   * Use double quotes.
 
 
-### For YAML
+## For YAML
 
 * Indentation:
   * Use 2 spaces.
 
 
-### For all files
+## For all files
 
 * Use UTF-8 encoding.
 * Use Unix-style line endings.
