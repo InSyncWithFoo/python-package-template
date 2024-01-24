@@ -21,7 +21,7 @@ View this file in source mode for best experience.
 ## For Python
 
 I don't like [PEP 8][1] (for the most part).
-This means [black][2] and other PEP-8-enforcing tools
+This means _[black][2]_ and other PEP-8-enforcing tools
 should not be used.
 
 
@@ -84,7 +84,7 @@ should not be used.
   * Limit them wherever applicable.
 
 * Comments:
-  * A comment must be at least two spaces
+  * A comment must be at least two spaces away
     from the nearest non-empty character.
     
     When the same line has no other contents,
