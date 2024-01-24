@@ -15,6 +15,8 @@ Python code examples in this file have their indentation
 set to 2 spaces as a compromise between [Python](#for-python)
 and [Markdown](#for-markdown)'s rules.
 
+View this file in source mode for best experience.
+
 
 ## For Python
 
@@ -177,6 +179,12 @@ See the source code of this page for an example.
 
 * Quotes:
   * Use double quotes.
+
+
+### For YAML
+
+* Indentation:
+  * Use 2 spaces.
 
 
 ### For all files
