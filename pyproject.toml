@@ -171,7 +171,7 @@ build-backend = "setuptools.build_meta"
 [tool.pytest.ini_options]
 # https://docs.pytest.org/en/stable/reference/customize.html
 # --cov interferes with PyCharm's debugger. Remove as necessary.
-addopts = "--strict-markers --cov=template --cov-report-html"
+addopts = "--strict-markers --cov=template --cov-report=html"
 testpaths = ["tests"]
 
 [tool.mypy]
