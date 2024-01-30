@@ -19,4 +19,4 @@
   [5]: ./README.md
   [6]: ./PROJECT_STRUCTURE.md
   [7]: ./.github/workflows/release.yaml
-  [8]: ./.github/workflows/dependabot.yaml
+  [8]: ./.github/dependabot.yaml
