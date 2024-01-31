@@ -117,14 +117,13 @@ dependencies = [
 [project.optional-dependencies]
 dev = [  # Minimum dependencies. Always latest.
 	"build~=1.0.3",
+	"hatch~=1.9.3",
 	"hypothesis~=6.97.0",
 	"mypy~=1.8.0",
 	"pyright~=1.1.347",
 	"pytest~=8.0.0",
 	"pytest-cov~=4.1.0",
-	"setuptools~=69.0.2",
-	"tox~=4.12.0",
-	"twine~=4.0.2"
+	"tox~=4.12.0"
 ]
 docs = [  # Remove if docs are not needed
 	"sphinx~=7.2.6",
@@ -150,22 +149,27 @@ docs = [  # Remove if docs are not needed
 [project.scripts]  # Optional
 sample = "sample:main"
 
-# This is configuration specific to the `setuptools` build backend.
-# If you are using a different build backend, you will need to change this.
-[tool.setuptools]
-# If there are data files included in your packages that need to be
-# installed, specify them here.
-package-data = { "sample" = ["*.dat"] }
+# For other related fields, see:
+# * https://packaging.python.org/en/latest/specifications/pyproject-toml/#entry-points
+# * https://hatch.pypa.io/latest/config/metadata/
 
 [build-system]
 # These are the assumed default build requirements from pip:
 # https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
-requires = ["setuptools>=69.0.0", "wheel"]  # Same as [project.optional-dependencies]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 # Tools that support pyproject.toml must be configured using pyproject.toml,
 # unless that tool has an astonishingly bad interface for specifying
 # configurations using this file (looking at you, pytest and tox!).
+
+[tool.hatch.build.targets.sdist]
+# https://hatch.pypa.io/latest/plugins/builder/sdist/
+# Also https://hatch.pypa.io/latest/plugins/builder/wheel/
+include = ["src"]
+
+[tool.hatch.envs.docs.scripts]
+make = "sphinx-build -M html docs/source docs/build"
 
 [tool.pytest.ini_options]
 # https://docs.pytest.org/en/stable/reference/customize.html
