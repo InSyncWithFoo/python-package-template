@@ -169,7 +169,8 @@ build-backend = "hatchling.build"
 include = ["src"]
 
 [tool.hatch.envs.docs.scripts]
-make = "sphinx-build -M html docs/source docs/build"
+start = "sphinx-quickstart docs"
+build = "sphinx-build -M html docs/source docs/build"
 
 [tool.pytest.ini_options]
 # https://docs.pytest.org/en/stable/reference/customize.html
