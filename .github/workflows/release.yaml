@@ -23,8 +23,7 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        # Docs: https://github.com/actions/checkout
       -
         name: Setup Python
         uses: actions/setup-python@v5
@@ -41,4 +40,4 @@ jobs:
       -
         name: Publish
         # Use latest
-        uses: pypa/gh-action-pypi-publish@2f6f737ca5f74c637829c0f5c3acd0e29ea5e8bf
+        uses: pypa/gh-action-pypi-publish@release/v1.8
