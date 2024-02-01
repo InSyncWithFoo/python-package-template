@@ -1,6 +1,6 @@
 # Things to do when setting up this package
 
-* [ ] Choose [a license][1].
+* [ ] Choose [a license][1] (defaults to MIT).
 * [ ] Edit [pyproject.toml][2].
   * [ ] Edit [tox.ini][3] if necessary.
   * [ ] Edit [test.yaml][4] accordingly.
