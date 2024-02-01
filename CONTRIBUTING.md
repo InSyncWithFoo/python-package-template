@@ -8,6 +8,18 @@ See _[Code style][1]_ and _[Project structure][2]_
 for more information on the project itself.
 
 
+## Start
+
+Clone this project with `git clone`, then install the package
+in editable mode along with its `dev` dependencies:
+
+```shell
+$ pip install -e .[dev]
+```
+
+This will install all packages necessary for development.
+
+
 ## Run tests
 
 Whenever you make a <em>fix</em>,
