@@ -199,13 +199,40 @@ typeCheckingMode = "strict"
 [tool.ruff]
 # https://docs.astral.sh/ruff/configuration/
 # https://docs.astral.sh/ruff/rules/
+include = ["src/**"]
+exclude = ["tests/**"]
 line-length = 80
 target-version = "py310"
 
 [tool.ruff.lint]
 select = ["ALL"]
 ignore = [
-	"W191",  # tab-indentation
-	"W291",  # trailing-whitespace
-	"W293"   # blank-line-with-whitespace
+	### General
+	
+	"ANN101",    # missing-type-self
+	"ANN102",    # missing-type-cls
+	
+	"D200",      # fits-on-one-line
+	"D202",      # no-blank-line-after-function
+	"D205",      # blank-line-after-summary
+	"D206",      # indent-with-spaces
+	"D212",      # multi-line-summary-first-line
+	"D401",      # non-imperative-mood
+	"D300",      # triple-single-quotes
+	
+	"ERA001",    # commented-out-code
+	
+	"I001",      # unsorted-imports
+	
+	"Q000",      # bad-quotes-inline-string
+	"Q001",      # bad-quotes-multiline-string
+	"Q002",      # bad-quotes-docstring
+	
+	"W191",      # tab-indentation
+	"W291",      # trailing-whitespace
+	"W293",      # blank-line-with-whitespace
+	
+	### Project
+	
+	# ...
 ]
