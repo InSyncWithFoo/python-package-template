@@ -10,7 +10,7 @@
 # There are some restrictions on what makes a valid project name
 # specification here:
 # https://packaging.python.org/specifications/core-metadata/#name
-name = "template"  # Required
+name = "<template>"  # Required
 
 # Versions should comply with PEP 440:
 # https://www.python.org/dev/peps/pep-0440/
@@ -22,7 +22,7 @@ version = "0.1.0"  # Required
 # This is a one-line description or tagline of what your project does. This
 # corresponds to the "Summary" metadata field:
 # https://packaging.python.org/specifications/core-metadata/#summary
-description = "Template for my Python projects"  # Optional
+description = "Description for <template>"  # Optional
 
 # This is an optional longer description of your project that represents
 # the body of text which users will see when they visit PyPI.
@@ -142,8 +142,8 @@ docs = [  # Remove if docs are not needed
 # maintainers, and where to support the project financially. The key is
 # what's used to render the link text on PyPI.
 [project.urls]  # Optional
-"Homepage" = "https://github.com/InSyncWithFoo/python-package-template"  # Use kebab-case
-# "Documentation" = "https://some-subdomain.readthedocs.io/"
+"Homepage" = "https://github.com/InSyncWithFoo/<template>"  # Use kebab-case
+"Documentation" = "https://<template>.readthedocs.io/"
 
 # The following would provide a command line executable called `sample`
 # which executes the function `main` from this package when invoked.
@@ -176,7 +176,7 @@ build = "sphinx-build -M html docs/source docs/build"
 [tool.pytest.ini_options]
 # https://docs.pytest.org/en/stable/reference/customize.html
 # --cov interferes with PyCharm's debugger. Remove as necessary.
-addopts = "--strict-markers --cov=template --cov-report=html"
+addopts = "--strict-markers --cov=<template> --cov-report=html"
 testpaths = ["tests"]
 
 [tool.mypy]

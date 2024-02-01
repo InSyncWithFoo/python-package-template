@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'template'
+project = '<template>'
 copyright = '2024-now, InSyncWithFoo'
 author = 'InSyncWithFoo'
 version = '0.1'

@@ -1,4 +1,4 @@
-# Template
+# &lt;template&gt;
 
 This package does something.
 For more information, see [the documentation][1].
@@ -9,7 +9,7 @@ For more information, see [the documentation][1].
 This package is available [on PyPI][2]:
 
 ```shell
-$ pip install name-of-this-package
+$ pip install <template>
 ```
 
 
@@ -18,6 +18,6 @@ $ pip install name-of-this-package
 Please see _[Contributing][3]_ for more information.
 
 
-  [1]: https://name-of-this-package.readthedocs.io/
-  [2]: https://pypi.org/project/name-of-this-package
+  [1]: https://<template>.readthedocs.io/
+  [2]: https://pypi.org/project/<template>
   [3]: ./CONTRIBUTING.md
