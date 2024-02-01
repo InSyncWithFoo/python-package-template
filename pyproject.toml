@@ -10,7 +10,7 @@
 # There are some restrictions on what makes a valid project name
 # specification here:
 # https://packaging.python.org/specifications/core-metadata/#name
-name = "<template>"  # Required
+name = "template"  # Required
 
 # Versions should comply with PEP 440:
 # https://www.python.org/dev/peps/pep-0440/
@@ -32,7 +32,7 @@ description = "Description for <template>"  # Optional
 #
 # This field corresponds to the "Description" metadata field:
 # https://packaging.python.org/specifications/core-metadata/#description-optional
-readme = "README.md" # Optional
+readme = "README.md"  # Optional
 
 # Specify which Python versions you support. In contrast to the
 # 'Programming Language' classifiers above, 'pip install' will check this
@@ -57,7 +57,7 @@ keywords = []  # Optional
 # authored the project, and a valid email address corresponding to the name
 # listed.
 authors = [
-	{ name = "InSyncWithFoo", email = "insyncwithfoo@gmail.com" } # Optional
+	{ name = "InSyncWithFoo", email = "insyncwithfoo@gmail.com" }  # Optional
 ]
 
 # This should be your name or the names of the organization who currently
@@ -65,7 +65,7 @@ authors = [
 # listed.
 # Most oftenly no one. Remove this.
 maintainers = [
-	{ name = "A. Great Maintainer", email = "maintainer@example.com" } # Optional
+	{ name = "A. Great Maintainer", email = "maintainer@example.com" }  # Optional
 ]
 
 # Classifiers help users find your project by categorizing it.
@@ -81,9 +81,9 @@ classifiers = [# Optional
 	# Indicate who your project is intended for
 	"Intended Audience :: Developers",
 	"Topic :: Software Development :: Build Tools",
+	
 	# Pick your license as you wish
 	"License :: OSI Approved :: MIT License",
-	# "License :: OSI Approved :: The Unlicense (Unlicense)",
 	
 	# Specify the Python versions you support here. In particular, ensure
 	# that you indicate you support Python 3. These classifiers are *not*
@@ -94,6 +94,11 @@ classifiers = [# Optional
 	"Programming Language :: Python :: 3.12",
 	# "Programming Language :: Python :: 3.13",
 	"Programming Language :: Python :: 3 :: Only",
+	
+	"Programming Language :: Python :: Implementation :: CPython",
+	# "Programming Language :: Python :: Implementation :: PyPy",
+
+	"Typing :: Typed"
 ]
 
 # This field lists other packages that your project depends on to run.
