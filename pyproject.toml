@@ -71,7 +71,7 @@ maintainers = [
 # Classifiers help users find your project by categorizing it.
 #
 # For a list of valid classifiers, see https://pypi.org/classifiers/
-classifiers = [# Optional
+classifiers = [  # Optional
 	# How mature is this project? Common values are
 	#   3 - Alpha
 	#   4 - Beta
@@ -217,8 +217,8 @@ ignore = [
 	"D205",      # blank-line-after-summary
 	"D206",      # indent-with-spaces
 	"D212",      # multi-line-summary-first-line
-	"D401",      # non-imperative-mood
 	"D300",      # triple-single-quotes
+	"D401",      # non-imperative-mood
 	
 	"ERA001",    # commented-out-code
 	
