@@ -209,9 +209,6 @@ select = ["ALL"]
 ignore = [
 	### General
 	
-	"ANN101",    # missing-type-self
-	"ANN102",    # missing-type-cls
-	
 	"D200",      # fits-on-one-line
 	"D202",      # no-blank-line-after-function
 	"D205",      # blank-line-after-summary
