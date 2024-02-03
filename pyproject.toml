@@ -171,6 +171,8 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.sdist]
 # https://hatch.pypa.io/latest/plugins/builder/sdist/
 # Also https://hatch.pypa.io/latest/plugins/builder/wheel/
+# On new machines:
+#   $ hatch config set dirs.env.virtual ./.hatchenvs
 include = ["src"]
 
 [tool.hatch.envs.docs.scripts]
@@ -199,7 +201,7 @@ exclude_also = [
 
 [tool.mypy]
 # https://mypy.readthedocs.io/en/stable/config_file.html
-mypy_path = ["src"]
+files = "src/**/*.py"
 strict = true
 
 [tool.pyright]
