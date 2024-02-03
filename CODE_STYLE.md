@@ -39,13 +39,15 @@ should not be used.
 
 * Line length:
   * A line must not be longer than 80 characters,
-    with tabs count as 4.
+    with tabs counted as 4 each.
   * Wrapping long lines is recommended,
     even if the length does not exceed 80.
 
 * Quotes:
   * Prefer single quotes wherever possible,
     even when writing docstrings.
+  * However, use double quotes
+    if that results in less escaping.
 
 * Operators:
   * Use spaces around keyword arguments and operators.
@@ -54,12 +56,12 @@ should not be used.
   * Group multiple related lines to make mono-blocks.
     Separate such blocks with blank lines.
     For example:
-  
+    
     ```python
     if foo > bar:
       bar = Qux()
       bar.do_this()
-    
+      
       something_else.do_that()
     
     else:
@@ -73,14 +75,14 @@ should not be used.
   * Use:
     * `snake_case`: functions, variables and modules
     * `PascalCase`: classes
-    * `ALL_CAPS`: enum members and constants
+    * `ALL_CAPS`: enum members and public constants
   
   * Do not name things `utils`, `helper`, `base` or `abstract`.
     Give more meaningful names when possible; [it is always possible][4].
     
     See also: *[Naming Things in Code][5]*
 
-* Variable scope:
+* Variable scopes:
   * Limit them wherever applicable.
 
 * Comments:
@@ -91,9 +93,9 @@ should not be used.
     the comment should be a comment for and
     have the same indentation as the statement(s)
     right below it.
-
+    
     For example:
-
+    
     ```python
     print('Lorem ipsum')  # This is a comment
     
@@ -104,6 +106,20 @@ should not be used.
     def function():
       # This too
       lorem = ipsum.dolor().sit(amet)
+    
+    ###
+    # "Important" comments may optionally
+    # have leading and trailing 3-hash sequences.
+    ###
+    
+    class Consectetur:
+      
+      # This comment is for the following class variable
+      adipiscing = 'elit'
+      
+      # This comment is for the following method
+      def sed(self, do: eiusmod = tempor) -> incididunt:
+        ...
     ```
 
   * Only use comments to explain something
@@ -153,7 +169,7 @@ See the source code of this page for an example.
   * All links should be grouped at the end
     of the page as a link reference definitions
     block, with numbers as link labels.
-  
+    
     The numbers must be ordered strictly
     in ascending order, both in labels and
     in definitions. Indent the whole group
