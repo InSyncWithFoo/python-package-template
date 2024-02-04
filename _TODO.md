@@ -8,6 +8,7 @@
 * [ ] Edit [PROJECT_STRUCTURE.md][6].
 * [ ] Create a trusted publisher and modify [release.yaml][7] accordingly.
 * [ ] Fine-tune [dependabot.yaml][8].
+* [ ] Remove placeholders in [CHANGELOG][9].
 * [ ] When making the first commit, use InSyncWithFoo as name.
 * [ ] Delete this file.
 
@@ -20,3 +21,4 @@
   [6]: ./PROJECT_STRUCTURE.md
   [7]: ./.github/workflows/release.yaml
   [8]: ./.github/dependabot.yaml
+  [9]: ./CHANGELOG.md
