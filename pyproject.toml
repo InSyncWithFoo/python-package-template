@@ -242,6 +242,8 @@ ignore = [
 	"I001",      # unsorted-imports
 	
 	"N818",      # error-suffix-on-exception-name
+	
+	"PIE790",    # unnecessary-placeholder
 		
 	"Q000",      # bad-quotes-inline-string
 	"Q001",      # bad-quotes-multiline-string
