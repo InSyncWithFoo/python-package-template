@@ -123,7 +123,6 @@ dependencies = [
 # projects.
 [project.optional-dependencies]
 dev = [  # Minimum dependencies. Always latest.
-	"build~=1.0.3",
 	"hatch~=1.9.3",
 	"hypothesis~=6.97.0",
 	"mypy~=1.8.0",
@@ -244,7 +243,7 @@ ignore = [
 	"N818",      # error-suffix-on-exception-name
 	
 	"PIE790",    # unnecessary-placeholder
-		
+	
 	"Q000",      # bad-quotes-inline-string
 	"Q001",      # bad-quotes-multiline-string
 	"Q002",      # bad-quotes-docstring
