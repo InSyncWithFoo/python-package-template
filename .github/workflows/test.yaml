@@ -1,14 +1,19 @@
 name: Test
 
 on:
+  # Anchors are not supported.
   pull_request:
-    paths: &paths
+    paths:
       - src/**
       - tests/**
       - .github/workflows/*.yaml
       - tox.ini
   push:
-    paths: *paths
+    paths:
+      - src/**
+      - tests/**
+      - .github/workflows/*.yaml
+      - tox.ini
 
 jobs:
   test:
