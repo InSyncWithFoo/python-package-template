@@ -108,7 +108,9 @@ classifiers = [  # Optional
 # For an analysis of this field vs pip's requirements files see:
 # https://packaging.python.org/discussions/install-requires-vs-requirements/
 dependencies = [
-	"typing_extensions~=4.9.0"  # Always use latest
+	# Uncomment the following only when type hints are needed at runtime.
+	# Otherwise, use `if TYPE_CHECKING`.
+	# "typing_extensions~=4.9.0"  # Always use latest
 ]
 
 # List additional groups of dependencies here (e.g. development
@@ -240,7 +242,7 @@ ignore = [
 	"I001",      # unsorted-imports
 	
 	"N818",      # error-suffix-on-exception-name
-	
+		
 	"Q000",      # bad-quotes-inline-string
 	"Q001",      # bad-quotes-multiline-string
 	"Q002",      # bad-quotes-docstring
