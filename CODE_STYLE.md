@@ -181,9 +181,11 @@ See the source code of this page for an example.
     There must be no preceding blank lines.
 
 * Empty lines:
-  * Use 2 blank lines before headers.
-  * Use 1 blank lines after headers.
-  * Use 1 blank line after blocks.
+  * Use 2 blank lines before level-2 headers.
+    Use either 2 or 1 blank lines before lower-level headers,
+    whichever applicable.
+  * Use 1 blank line after headers.
+  * Use 1 blank line before and after blocks.
   * Use 2 blank lines before the links block.
   * Use 1 empty lines between list items
     if they have sub-blocks.
