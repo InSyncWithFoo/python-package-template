@@ -133,7 +133,7 @@ dev = [  # Minimum dependencies. Always latest.
 	"tox~=4.14.0"
 ]
 docs = [  # Remove if docs are not needed
-	"sphinx~=7.2.6",
+	"sphinx~=7.3.5",
 	"furo~=2024.1.29"
 ]
 
