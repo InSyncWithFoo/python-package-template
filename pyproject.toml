@@ -134,7 +134,7 @@ dev = [  # Minimum dependencies. Always latest.
 ]
 docs = [  # Remove if docs are not needed
 	"sphinx~=7.3.5",
-	"furo~=2024.4.27"
+	"furo~=2024.5.6"
 ]
 
 # List URLs that are relevant to your project
