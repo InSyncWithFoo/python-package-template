@@ -123,7 +123,7 @@ dependencies = [
 # projects.
 [project.optional-dependencies]
 dev = [  # Minimum dependencies. Always latest.
-	"hatch~=1.10.0",
+	"hatch~=1.11.0",
 	"hypothesis~=6.102.4",
 	"mypy~=1.10.0",
 	"pyright~=1.1.347",
