@@ -228,6 +228,8 @@ ignore = [
 	"ANN101",    # missing-type-self
 	"ANN102",    # missing-type-cls
 	
+	"COM812",    # missing-trailing-comma
+	
 	"D200",      # fits-on-one-line
 	"D202",      # no-blank-line-after-function
 	"D205",      # blank-line-after-summary
