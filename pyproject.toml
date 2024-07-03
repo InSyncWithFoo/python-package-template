@@ -130,7 +130,7 @@ dev = [  # Minimum dependencies. Always latest.
 	"pytest~=8.2.0",
 	"pytest-cov~=5.0.0",
 	"ruff~=0.5.0",
-	"tox~=4.15.0"
+	"tox~=4.16.0"
 ]
 docs = [  # Remove if docs are not needed
 	"sphinx~=7.3.5",
