@@ -14,9 +14,9 @@ python:
         - docs  # [project.optional-dependencies.docs] must be present
 
 build:
-  os: ubuntu-22.04  # Always latest
+  os: ubuntu-24.04  # Always latest
   tools:
-    python: "3.12"  # Always latest
+    python: "3.13"  # Always latest
 
 sphinx:
   builder: html

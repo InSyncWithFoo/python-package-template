@@ -9,7 +9,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = '<template>'
-copyright = '2024-now, InSyncWithFoo'
+copyright = '2024, InSyncWithFoo'
 author = 'InSyncWithFoo'
 version = '0.1'
 

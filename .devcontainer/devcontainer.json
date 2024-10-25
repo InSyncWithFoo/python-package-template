@@ -7,11 +7,11 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": {
-		"ghcr.io/devcontainers/features/python:1": {
-			"version": "3.12"
-		}
-	},
+	// "features": {
+	// 	"ghcr.io/devcontainers/features/python:1": {
+	// 		"version": "3.13"
+	// 	}
+	// },
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -23,7 +23,6 @@
 				"charliermarsh.ruff",
 				"eamodio.gitlens",
 				"EditorConfig.EditorConfig",
-				"formulahendry.code-runner",
 				"ms-python.mypy-type-checker@prerelease",
 				"ms-python.python",
 				"tamasfe.even-better-toml",
